@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetTeachersCourses" value="name:CourseID;datatype:int,name:CourseName;datatype:string,name:Description;datatype:blob,name:ContentDataFileName;datatype:string,name:StartDate;datatype:date,name:EndDate;datatype:date,name:IsEnrollable;datatype:int,name:MaxNoOfStudent;datatype:int,name:TotalNoOfClasses;datatype:int,name:CourseFee;datatype:real,name:TeacherUserID;datatype:int,name:TeacherLibID;datatype:int,name:SubjectID;datatype:int" />
+	<infoitem key="UD_RsChkClassScheduleIfExisted" value="name:CourseClassScheduleID;datatype:int,name:CourseID;datatype:int,name:WeekDay0;datatype:int,name:WeekDay1;datatype:int,name:WeekDay2;datatype:int,name:WeekDay3;datatype:int,name:WeekDay4;datatype:int,name:WeekDay5;datatype:int,name:WeekDay6;datatype:int,name:TeacherUserID;datatype:int" />
+</info>

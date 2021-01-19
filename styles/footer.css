@@ -1,0 +1,94 @@
+#footer_container{
+	clear: both;
+	color:#FFF;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #c0c0c8;
+	background-color: #19191a;
+	margin: 0;
+	margin-top: 50px;
+}
+#footer{
+	/* width: 96%; /* This one is for floating css */
+	width:990px; /* This one is for fixed width css */
+	margin:auto;
+}
+.footer_column{
+	margin-top: 50px;
+	width: 220px;
+	height: 202px;
+	background-color: :#212122;
+	float: left;
+	border: 2px solid #3d3d3f;
+	color:#FFF;	
+}
+.footer_column:hover {
+	border: 2px solid #545456;
+}
+.footer_column .icon{
+	position:relative;
+	top:-120px;
+	height:198px;
+	width:220px;
+	text-align:center;
+}
+.footer_column .text_content{
+	height:102px;
+	position:relative;
+	top:-120px;
+	padding:10px;
+	text-align:center;
+	background-color:#3d3d3f;
+	margin-top:2px;
+}
+.footer_column .text_content:hover{
+	background-color:#545456;
+}
+.footer_column .text_content h2{
+	font-size:1em;
+}
+.footer_column .text_content p{
+	font-size:0.8em;
+	margin:0px;
+}
+.footer_column_divider{
+	margin-top: 50px;
+	width: 30px;
+	height: 180px;
+	float: left;
+}
+#footer_bar{
+	clear:both;
+	background-color:#dee2e6;
+	color:#333;
+	font-size:1em;
+	font-weight:bold;
+	text-transform:uppercase;
+	width:960px;;
+	height:25px;
+	margin-top:40px;
+	margin-bottom:40px;
+	padding:20px;
+}
+#footer_bar_text_message{
+	width:550px;
+	float:left;
+	text-transform:uppercase;
+
+}
+#footerbar_newsletter_subscription{
+	width:300px;
+	float:right;
+}
+#footerbar_newsletter_subscription input[type=text]{
+	width: 220px;
+	height:22px;
+	border: 1px solid #666;
+}
+#footer_note{
+	font:Verdana, Geneva, sans-serif;
+	font-size:0.6em;
+	font-weight:bold;
+	color:#CCC;
+	
+}

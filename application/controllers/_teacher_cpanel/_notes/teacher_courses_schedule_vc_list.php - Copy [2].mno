@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetMyScheduledClasses" value="name:ClassID;datatype:int,name:CourseID;datatype:int,name:TeacherUserID;datatype:int,name:WizIQ_class_id;datatype:string,name:WizIQ_start_time;datatype:string,name:WizIQ_duration;datatype:int,name:WizIQ_presenter_url;datatype:string,name:WizIQ_recording_url;datatype:string,name:CreateAt;datatype:datetime,name:UpdateAt;datatype:timestamp,name:WhoUserID;datatype:int" />
+</info>

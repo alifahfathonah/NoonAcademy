@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /system/
+Disallow: /Connections/
+Disallow: /application/
+Disallow: /user_uploads/
+Disallow: /scripts/
+Disallow: /Database_Copy/
+Disallow: /ajax_pages/
+Disallow: /scripts/

@@ -1,0 +1,56 @@
+
+/* Create Content Based Tiles to be Display in the Columns or Content Area of the Pages */
+.content_tiles{
+	width:100%;
+	height:480px;
+	background-color:#19191a;
+	color:#FFF;
+	float:left;
+	overflow:hidden;
+}
+.content_tiles .tile_content{
+	width:100%;	 
+	overflow:hidden;
+	text-align:center;
+	height:340px;
+
+
+}
+.content_tiles .tile_content img{
+	width:94%;
+	height:100%;
+	margin:10px;
+}
+
+.content_tiles .title_heading{
+	width:100%;
+	height:48px;	
+	overflow:hidden;
+	font-size:1.8em;
+	padding-left:20px;
+	padding-right:20px;
+}
+.content_tiles .tile_short_note{
+	width:100%;
+	height:24px;	
+	overflow:hidden;
+	font-size:1em;
+	padding-left:20px;
+	padding-right:20px;
+}
+.content_tiles .tile_menu_link{
+	width:100%;	
+	overflow:hidden;
+	font-size:1em;
+	padding:20px;
+}
+.content_tiles .tile_menu_link a{
+	height:16px;
+	background-color:#faf9f9;
+	color:#0072c6;
+	padding:5px;
+	text-decoration:none;
+}
+.content_tiles .tile_menu_link a:hover{
+	background-color: #CCCCCC;
+}

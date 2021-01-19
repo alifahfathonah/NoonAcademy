@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsPayNow" value="name:CEID;datatype:int,name:CourseID;datatype:int,name:StudentUserID;datatype:int,name:TeacherUserID;datatype:int,name:WhoUserID;datatype:int,name:CreateAt;datatype:datetime,name:UpdatedAt;datatype:timestamp,name:IsPaid;datatype:int" />
+</info>

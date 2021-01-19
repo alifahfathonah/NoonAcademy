@@ -1,0 +1,52 @@
+/* CSS Page header */
+#zorkif_slider {
+	height: 450px; /* Disabled By Kifayat for Bug Fixed */
+	/* height: 380px; /*  Add by Kifayat to Bug Fix */
+	margin: 0px;
+	margin-bottom: 10px;
+	background-color: #424345;
+	display: block;
+	background-image: url(../images/slides/slide1.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+#zorkif_slider .zorkif_slider_wrapper{
+	/* Fix the Height Issue if no image is loaded */
+	height: 380px; /* Disabled By Kifayat for Bug Fixed */
+	
+}
+.zorkif_slider_menu_bar {
+	 
+	width: 990px;
+	height:70px;
+	background-color:#333;
+	margin-left: auto;
+	margin-right: auto;
+	background-image:url(../images/zorkif_slider/slider_menu_bg.jpg);
+	background-repeat:repeat-x;
+	padding-top:25px;
+	/* margin-top:380px; /* Disabled By Kifayat */
+}
+.zorkif_slider_menu_bar a{
+	width: 110px;
+	height: 45px;
+	color: #FFF;
+	/* [disabled]background-color:#F00; */
+	background-image: url(../images/zorkif_slider/menu_button_bg.jpg);
+	background-repeat: repeat-x;
+	padding: 12px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	color: #FFF;
+	text-decoration: none;
+}
+.zorkif_slider_menu_bar a:hover, .zorkif_slider_menu_bar .active{
+	background-color:#FFF;
+	background-image:url(../images/zorkif_slider/menu_button_bg_hover.jpg);
+	background-repeat:repeat-x;	
+	color:#333;
+}

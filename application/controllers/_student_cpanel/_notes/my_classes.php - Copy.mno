@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetMyClasses" value="name:StdClassID;datatype:int,name:CourseID;datatype:int,name:StudentUserID;datatype:int,name:WizIQ_class_id;datatype:string,name:WizIQ_screen_name;datatype:string,name:WizIQ_attendee_id;datatype:string,name:WizIQ_attendee_url;datatype:string,name:WhoUserID;datatype:int,name:CreateAt;datatype:datetime,name:UpdatedAt;datatype:timestamp,name:CourseName;datatype:string" />
+</info>

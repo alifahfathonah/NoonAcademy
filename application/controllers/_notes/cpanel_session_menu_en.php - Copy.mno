@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetCurrentUserName" value="name:FirstName;datatype:string,name:MiddleNames;datatype:string,name:LastNames;datatype:string" />
+</info>

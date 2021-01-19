@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RSGetTeacherUserID" value="name:UserID;datatype:int,name:Username;datatype:string,name:FirstName;datatype:string,name:MiddleNames;datatype:string,name:LastNames;datatype:string" />
+	<infoitem key="UD_RsGetSelectedLibrary" value="name:TeacherLibID;datatype:int,name:LibName;datatype:string,name:LibDescription;datatype:string,name:TeacherUserID;datatype:int,name:CreateAt;datatype:datetime,name:UpdateAt;datatype:timestamp" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsSubjects" value="name:SubjectID;datatype:int,name:SubjectTitle;datatype:string,name:SubjectSubTitle;datatype:string" />
+	<infoitem key="UD_RsTeacherLibrary" value="name:TeacherLibID;datatype:int,name:LibName;datatype:string" />
+</info>

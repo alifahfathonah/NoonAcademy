@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_Groups" value="name:GroupID;datatype:int,name:GroupName;datatype:string,name:GroupDescription;datatype:string" />
+	<infoitem key="UD_Rs_CountryNames" value="name:CountryID;datatype:int,name:CountryName;datatype:string" />
+</info>

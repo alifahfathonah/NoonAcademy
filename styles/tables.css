@@ -1,0 +1,98 @@
+/* To Format the Table Tags for DataGrid View and Form View */
+
+.dark{
+	background-color: #D6E3F3;	
+}
+.light{
+	background-color:#FFF;
+}
+.small{
+	font-size:0.75em;	
+}
+.header_caption_row{color:#FFFFFF; background-color:#000000;}
+.detail_view table {
+	border: 1px solid #ececec;
+	padding: 0;
+	margin: 0px;
+	border-collapse: collapse;	
+	font-size:90%;
+}
+
+.detail_view table {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #0080FF;	
+}
+.detail_view table .header_caption_row td,
+.detail_view table th{
+	height: 40px;
+	color: #FFFFFF;
+	/* [disabled]font-weight:bold; */
+	background-color: #0e75bc;
+	background-image: url(../images/tables/header_bg.jpg);
+	background-repeat: repeat-x;
+	border: none;
+}
+.detail_view table td{
+	height: 25px;
+	border: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0080FF;
+	margin: 0px;
+	padding: 0 10px;	
+}
+.detail_view table tr:hover{
+	background-color: #64C1EA;
+	color: #FFF;
+}
+
+
+
+/* The Styles apply will apply to Data Entry Forms table */
+.data_entry_view table {
+	border:none;
+	padding:0;
+	margin:0px;
+	border-collapse: collapse;
+}
+.data_entry_view table tr{
+	border:none;
+	
+}
+.data_entry_view table .header_caption_row td,
+.data_entry_view table th,{
+	height:23px;
+	color: #333333;
+	font-weight:bold;
+	background-color: #E8E8E8;
+	background-image:url(../images/tables/header_bg.jpg);
+	background-repeat:repeat-x;
+	border:none;
+}
+.data_entry_view table td{
+	height:20px;
+	border:none;
+
+	margin:0px;
+	padding:0px;
+	
+}
+.data_entry_view table tr:hover{
+
+}
+.data_entry_view table {
+	border-width: 0px;
+	border-color: #333;
+	border-style: solid;
+	color: #000;
+	/* [disabled]font-family:Verdana, Geneva, sans-serif; */
+	/* [disabled]font-weight: bold; */
+	padding: 5px;
+}
+
+.data_entry_view table td {
+
+	vertical-align:middle;
+}
+

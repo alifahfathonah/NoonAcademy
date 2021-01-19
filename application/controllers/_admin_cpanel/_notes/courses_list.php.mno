@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsCoursesList" value="name:CourseID;datatype:int,name:CourseName;datatype:string,name:Description;datatype:blob,name:ContentDataFileName;datatype:string,name:StartDate;datatype:date,name:EndDate;datatype:date,name:IsEnrollable;datatype:int,name:MaxNoOfStudent;datatype:int,name:TotalNoOfClasses;datatype:int,name:CourseFee;datatype:real,name:TeacherUserID;datatype:int,name:TeacherLibID;datatype:int,name:SubjectID;datatype:int" />
+</info>

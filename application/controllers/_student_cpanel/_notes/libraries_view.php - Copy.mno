@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Rs_GetLibrary" value="name:TeacherLibID;datatype:int,name:LibName;datatype:string,name:LibDescription;datatype:string,name:TeacherUserID;datatype:int,name:CreateAt;datatype:datetime,name:UpdateAt;datatype:timestamp" />
+	<infoitem key="UD_Rs_GetMeterialUploadList" value="name:TeacherLibMetrialID;datatype:int,name:TeacherLibID;datatype:int,name:DataFileName;datatype:string,name:Description;datatype:blob,name:IsDownloadable;datatype:int,name:ShareWithID;datatype:int,name:CreateAt;datatype:datetime,name:UpdateAt;datatype:timestamp,name:ShareWith;datatype:string" />
+</info>

@@ -1,0 +1,74 @@
+/* 
+FileName: zorkif_misbah_gallary.css
+Purpose: To Create a Vertical Image Sliding Galary
+Programmer: Kifayat Ullah
+Dated: 5/2/2013
+Email: kifayat@zorkif.com
+
+ */
+
+.zorkif_misbah_gallery{
+	background-image:url(../images/zorkif_misbah_gallery/gallery_bg.jpg);
+	background-repeat:no-repeat;
+	width:600px;
+	height:600px;	
+}
+.zorkif_misbah_gallery a{
+	text-decoration:none;	
+}
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header{
+	height:40px;
+	width:600px;
+	background-image:url(../images/zorkif_misbah_gallery/gallery_header.png);	
+}
+
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header .zorkif_misbah_gallery_header_left_nav_button a{
+	width:90px;
+	height:40px;
+	background-image:url(../images/zorkif_misbah_gallery/gallery_button_left.png);
+		background-position: -0px -0px;
+	float:left;	
+}
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header .zorkif_misbah_gallery_header_left_nav_button a:hover{
+	width:90px;
+	height:40px;
+	background-image:url(../images/zorkif_misbah_gallery/gallery_button_left.png);
+	background-position: -0px -40px;
+	float:left;	
+}
+
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header .zorkif_misbah_gallery_header_right_nav_button a{
+	width:90px;
+	height:40px;
+	background-image:url(../images/zorkif_misbah_gallery/gallery_button_right.png);
+	background-position: -0px -0px;
+	float:right;			
+}
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header .zorkif_misbah_gallery_header_right_nav_button a:hover{
+	width:90px;
+	height:40px;
+	background-image:url(../images/zorkif_misbah_gallery/gallery_button_right.png);
+	background-position: -0px -40px;
+	float:right;			
+}
+ 
+
+.zorkif_misbah_gallery .zorkif_misbah_gallery_header .zorkif_misbah_gallery_header_title{
+	padding-top:10px;
+	width:419px;
+	height:30px;
+	float:left;
+	text-align:center;	
+}
+
+
+.zorkif_misbah_gallery .zorkif_misbah_gallery_content_slider{
+	height:500px;
+	width:600px;
+	text-align:center;	
+}
+.zorkif_misbah_gallery .zorkif_misbah_gallery_content_footer{
+	height:100px;
+	width:600px;
+	text-align:center;	
+}

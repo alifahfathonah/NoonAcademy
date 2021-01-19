@@ -1,0 +1,66 @@
+/* CSS Document */
+/* Items Display List */
+.tiles{
+}
+.tile{
+	width:195px;
+	height:160px;
+	background-color:#fff;
+	margin:6px;
+	margin-right:12px;
+	float:right;
+	overflow:hidden;
+	border: 1px solid #B3B3B3;
+}
+.tile .title_display_border{
+
+}
+.tile .tile_image, .tile .tile_image img{
+	width:195px;
+	height:160px;
+	overflow:hidden;	
+}
+
+.tile .tile_image a{
+	text-decoration:none;
+	border:none;
+	color:#000;
+	
+}
+.tile .tile_image a.img{
+
+} 
+.tile .tile_image a:hover img{
+
+} 
+.tile .tile_image a:hover  .tile_display_image{
+	width:195px;
+	height:160px;
+	z-index:-1;
+	
+
+}
+.tile .tile_image a:hover .show_tile_hover{
+	background-image: url(../images/cpanel_tiles/default_hover.png);
+	width: 195px;
+	height: 160px;
+	top: -170px;
+	position: relative;
+	text-align: center;
+	
+}
+
+.hover_text {
+	margin:10px;
+	padding-top:10px;	
+}
+.tile .tile_pop_up_details{
+	width: 195px;
+	height: 160px;
+	display: block;
+	position: relative;
+	background-color: #3A3A3A;
+}
+.tile .tile_pop_up_details a:hover{
+	z-index:9999;	
+}

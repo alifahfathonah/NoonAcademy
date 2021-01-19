@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsShareWithTypes" value="name:ShareWithID;datatype:int,name:ShareWith;datatype:string" />
+	<infoitem key="UD_RsGetTeacherLibraries" value="name:TeacherLibID;datatype:int,name:LibName;datatype:string,name:LibDescription;datatype:string,name:TeacherUserID;datatype:int,name:CreateAt;datatype:datetime,name:UpdateAt;datatype:timestamp,name:Username;datatype:string" />
+</info>

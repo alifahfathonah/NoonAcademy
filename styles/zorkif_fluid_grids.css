@@ -1,0 +1,187 @@
+/* Designed By Zorkif.com Team */
+@import url("reset-min.css"); /* Reset All TAGS, and Normalise Them Source: http://developer.yahoo.com/yui/reset/ */
+@import url("datepicker.css"); /* The main message boxes appearing on the top of the page */
+@import url("messages.css"); /* The main message boxes appearing on the top of the page */
+@import url("header.css"); /* To style the header of the page */
+@import url("footer.css"); /* To style the header of the page */
+@import url("zorkif_slider.css"); /* To style the header of the page */
+/*@import url("login_form.css"); /* To style the Login Form */
+@import url("forms.css"); /* To style the  Form */
+@import url("tables.css"); /* To style the tables */
+@import url("page_columns.css"); /* To style the tables */
+@import url("drop_down_menu.css"); /* To style the Header Dropdown Menu */
+@import url("content_tiles.css"); /* To Display different information in tiles */
+@import url("tiles_cpanel.css"); /* To Display different information in tiles */
+@import url("zorkif_misbah_gallery.css"); /* Virtical Misbah Sliding Gallery */
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border:0;
+} 
+
+@font-face {
+				font-family: 'MyCustomFont';
+				src: url('../font/NeoSansArabic.eot');
+				src: url('../font/NeoSansArabic.eot?#iefix') format('embedded-opentype'),
+				     url('../font/NeoSansArabic.woff') format('woff'),
+					 url('../font/NeoSansArabic.ttf') format('truetype'),
+					 url('../font/NeoSansArabic.svg#corbel') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+html{
+	overflow: -moz-scrollbars-vertical;
+	height:100%;
+	min-height:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	direction:rtl;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family:MyCustomFont;
+	font-size:100%;
+	
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 	
+}
+
+img{
+	margin:0px;
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+
+/* make every thing round */
+.round_corners {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+/* clear the Floating and Give some Gap */
+.clear_all{
+	clear:both;	
+}
+
+/* Control Main Layout of the Page */
+.main_container1 {
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.main_container {
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content_container{
+	width:100%;
+	margin-bottom:80px;
+	min-height:580px;	
+}
+#content_container h2{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-bottom:10px;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#626262;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+	border-bottom-color:#E8E8E8;
+}
+
+#content_container h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom:5px;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#626262;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+	border-bottom-color:#E8E8E8;
+}
+.first_column {
+	width:370px;
+	float:right;
+	text-align:right;
+	
+}
+.first_column .heading{
+	margin-top:20px;
+	background-color:#E8E8E8;
+	color:#333;
+	font-size:16px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	 
+}
+.first_column .heading em{
+	padding:5px;
+	float:right;
+	width:22px;
+	background-color:#333;
+	color:#FFF;	
+	margin-left:10px;
+	right:0px;
+	
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.first_column .heading .content{
+	padding:5px;
+}
+
+.first_column ul{
+	margin-right:35px;
+	margin-left:10px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.first_column li{
+	list-style:circle;
+	color:#333;
+}
+.second_column{
+	width:600px;
+	float:left;
+	text-align:right;		
+}
+
+.second_column p{
+	margin: 10px;
+	padding: 5px;
+	padding-bottom:20px;
+	text-align:justify;
+}
+.tab_content{
+	display:none;
+}
+.red {
+	color:#F00;	
+}
+.blue{
+	color:#36F;
+}

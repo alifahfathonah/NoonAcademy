@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetStudentCourses" value="name:CourseID;datatype:int,name:CourseName;datatype:string,name:Description;datatype:blob,name:StartDate;datatype:date,name:EndDate;datatype:date,name:StudentUserID;datatype:int,name:Username;datatype:string" />
+</info>

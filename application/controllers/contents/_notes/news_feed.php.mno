@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_RsGetNewsFeed" value="name:NewsID;datatype:int,name:NewsTitle;datatype:string,name:NewsText;datatype:blob,name:CreatedAt;datatype:timestamp,name:WhoUserID;datatype:int,name:Content_LanguageID;datatype:int" />
+</info>

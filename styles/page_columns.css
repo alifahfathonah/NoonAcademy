@@ -1,0 +1,75 @@
+/*
+=====================================================================================================
+The file is used to create columns, which can be used for forms formating, and other text formating
+=====================================================================================================
+*/
+
+.data_column_a{
+	width:318px;
+	float:right;
+	margin:6px;
+	_margin:1px;
+	overflow:hidden;
+	height:100%;	
+}
+
+.data_column_b{
+	width:645px;
+	float:right;
+	margin:6px;
+	_margin:1px;
+	overflow:hidden;
+}
+.data_column_c{
+	width:100%;
+	float:left;
+	margin:6px;
+	_margin:1px;
+	overflow:hidden;		
+}
+
+
+
+.data_column_a .text_box, 
+.data_column_a .data_entry_view form label,
+.data_column_a .data_entry_view  input[type=text],
+.data_column_a .data_entry_view  input[type=password],
+.data_column_a .data_entry_view  input[type=url],
+.data_column_a .data_entry_view  input[type=tel],
+.data_column_a .data_entry_view  input[type=number],
+.data_column_a .data_entry_view  input[type=color],
+.data_column_a .data_entry_view  input[type=email],
+.data_column_a .data_entry_view  input[type=file],
+.data_column_a .data_entry_view  select,
+.data_column_a .data_entry_view  textarea,
+	
+.data_column_b .text_box, 
+.data_column_b .data_entry_view form label,
+.data_column_b .data_entry_view  input[type=text],
+.data_column_b .data_entry_view  input[type=password],
+.data_column_b .data_entry_view  input[type=url],
+.data_column_b .data_entry_view  input[type=tel],
+.data_column_b .data_entry_view  input[type=number],
+.data_column_b .data_entry_view  input[type=color],
+.data_column_b .data_entry_view  input[type=email],
+.data_column_b .data_entry_view  input[type=file],
+.data_column_b .data_entry_view  select,
+.data_column_b .data_entry_view  textarea,
+
+.data_column_c .text_box, 
+.data_column_c .data_entry_view form label,
+.data_column_c .data_entry_view  input[type=text],
+.data_column_c .data_entry_view  input[type=password],
+.data_column_c .data_entry_view  input[type=url],
+.data_column_c .data_entry_view  input[type=tel],
+.data_column_c .data_entry_view  input[type=number],
+.data_column_c .data_entry_view  input[type=color],
+.data_column_c .data_entry_view  input[type=email],
+.data_column_c .data_entry_view  input[type=file],
+.data_column_c .data_entry_view  select,
+.data_column_c .data_entry_view  textarea 
+{		
+	/* width:97%; */  /* Temprary Disabled */
+	
+}
+

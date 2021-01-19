@@ -1,0 +1,1 @@
+<?php header('Location: ../../index.php?page_id=unkown_resource');?>
